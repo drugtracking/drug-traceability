@@ -217,6 +217,6 @@ if (!window.ethereum) {
 
 export const provider = new ethers.providers.Web3Provider(window.ethereum);
 export const signer = provider.getSigner();
-export const address = "0x00D83E73d2D5b6e658bc881B27b00EA005Ea49ec"
+export const address = "0x178e9460E40DC131538ef66aCD923576Ca127324"
 
 export const contract = new ethers.Contract(address, abi, signer)
